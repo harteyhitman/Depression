@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter|Itim:wght@100;400&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar-container{
+  background-color: #084175;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-container h1{
+  font-family: 'Inter';
+font-size: 22px;
+font-weight: 400;
+/* line-height: 39px; */
+letter-spacing: 0em;
+text-align: left;
+}
+.deperssion-text{
+  /* width: 754px; */
+height: 114px;
+flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+font-family: 'Itim';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.click-here-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.click-here-btn button{
+  padding: 5px 50px;
+  background-color: #084175;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  outline: none;
+}
+@media (max-width: 400px) {
+  .deperssion-text{
+    width: 324px;
+  height: 114px;
+  flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+  font-family: 'Itim';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  padding: 10px;
+  }
+}
