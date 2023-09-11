@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
 import MentalImg from '../Assets/mental-img.png'
-import ClickHereToTakeTest from './ClickHereToTakeTest';
+import Login from './Login';
 
 
 const HomePage = () => {
@@ -12,9 +12,12 @@ const HomePage = () => {
     <div className="deperssion-text">
     Depression can affect anyone, 
     but recovery is possible with 
-    proper care and support!
+    proper care and support!    <br /> <br />
+    Kindly enter your name and email below to take the text
+
     </div>
-    <ClickHereToTakeTest />
+    <Login />
+    
     </div>
   )
 }
