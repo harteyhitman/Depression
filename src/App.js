@@ -1,14 +1,14 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomePage from "./Main/HomePage";
-import SignInPage from "./signinpage/SignInPage";
+import Questions from "./questionsPage/Questions";
 
 function App() {
   return (
     <Router>
       <Routes>
                    <Route exact path="/" element={<HomePage /> } />
-                   <Route exact path="SignInPage" element={<SignInPage /> } />
+                   <Route exact path="Questions" element={<Questions /> } />
       </Routes>
     </Router>
   );
