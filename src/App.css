@@ -175,6 +175,29 @@ font-weight: bold;
   align-items: center;
   margin-top: 50px;
 }
+.click-help{
+  color: #1BC9D4;
+font-family: 'Inter';
+font-size: 16px;
+padding: 6px 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+cursor: pointer;
+}
+.Profile-and-dropwdown{
+  display: flex;
+}
+#seek-help-profile{
+  background-color: rgba(41, 45, 50, 0.50);
+}
+.mental-health{
+  position: relative;
+  z-index: -1;
+}
 @media (max-width: 400px) {
   .deperssion-text{
     /* width: 320px; */
@@ -243,5 +266,25 @@ font-weight: bold;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  }
+  .click-help{
+    color: #1BC9D4;
+  font-family: 'Inter';
+  font-size: 16px;
+  padding: 14px 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  }
+  .seek-help{
+
+    background-image: url(./Assets/seek-help-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
   }
 }

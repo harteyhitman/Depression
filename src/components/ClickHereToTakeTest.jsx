@@ -4,9 +4,11 @@ import { Link } from 'react-router-dom'
 const ClickHereToTakeTest = ({handleSubmit}) => {
   return (
     <div className='click-here-btn'>
-    <button type='submit'>
-     <Link to="SignInPage">{handleSubmit}Click here to take test</Link>
-    </button>
+     <Link to="SignInPage"><button type='submit'>
+    {handleSubmit}
+    Click here to take test
+    
+    </button></Link>
     </div>
   )
 }

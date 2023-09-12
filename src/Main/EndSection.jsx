@@ -15,7 +15,7 @@ const EndSection = () => {
    down.</p>
     </div>
     <div className="end-section">
-   <Link to='/'> <button className='end-section-btn'>End session</button></Link>
+   <Link to='/SignInPage/Submit/EndSection/ClickHere4Help'> <button className='end-section-btn'>End session</button></Link>
     </div>
     </div>
   )
