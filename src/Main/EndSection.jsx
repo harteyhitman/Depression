@@ -9,7 +9,7 @@ const EndSection = () => {
     <h1>Depression Test</h1>
     </div>
     <div className="congrats-sandra">
-   <p>Congratulations Sandra! your test shows you
+   <p>Congratulations bagwell! your test shows you
    are not depressed. It is adviced you do more 
    activities that makes you happy if you feel a little 
    down.</p>
