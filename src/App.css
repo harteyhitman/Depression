@@ -11,6 +11,7 @@
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 }
 .navbar-container h1{
   font-family: 'Inter';
@@ -73,7 +74,104 @@ form{
 label{
   padding-left: 5px;
 }
-
+.quest{
+  border-radius: 10px;
+border: 1px solid rgba(0, 0, 0, 0.85);
+background: #FFF;
+width: 500px;
+text-align: center;
+padding: 5px;
+margin: 20px;
+color: #000;
+font-family: 'Inter';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.questions{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.topics{
+  color: #000;
+font-family: 'Inter';
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: flex;
+margin-bottom: 30px;
+margin-right: 200px; 
+}
+.quest-btn-container{
+  display: flex;
+  gap: 400px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.quest-btn{
+  border: 1px solid #000;
+  padding: 3px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.submit{
+  padding-left: 70px;
+}
+.submit-btn{
+  border-radius: 7px;
+  background: #084175;
+  padding: 8px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 80px 0px;
+}
+.congrats-sandra{
+  width: 760px;
+height: 300px;
+margin: 0 auto;
+flex-shrink: 0;
+border-radius: 5px;
+border: 2px solid rgba(0, 0, 0, 0.85);
+background: #FFF;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 70px;
+}
+.congrats-sandra p{
+  width: 50%;
+  color: #000;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.end-section-btn{
+  border-radius: 7px;
+background: #084175;
+padding: 10px 50px;
+color: #fff;
+font-size: 16px;
+font-weight: bold;
+}
+.end-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
 @media (max-width: 400px) {
   .deperssion-text{
     /* width: 320px; */
@@ -90,5 +188,54 @@ label{
   font-weight: bold;
   line-height: normal;
   padding: 10px;
+  }
+  .quest{
+    border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.85);
+  background: #FFF;
+  width: 250px;
+  text-align: center;
+  padding: 5px;
+  margin: 20px;
+  color: #000;
+  font-family: 'Inter';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  .topics{
+    margin: 0;
+  }
+  .quest-btn-container{
+    display: flex;
+    gap: 140px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .submit{
+    padding-left: 30px;
+  }
+  .congrats-sandra{
+    width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.85);
+  background: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  }
+  .congrats-sandra p{
+    /* width: 50%; */
+    color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   }
 }

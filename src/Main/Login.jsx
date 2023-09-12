@@ -35,7 +35,7 @@ const Login = () => {
             required
           />
         </div>
-        <ClickHereToTakeTest />
+        <ClickHereToTakeTest handleSubmit={handleSubmit}/>
       </form>
   )
 }
