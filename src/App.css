@@ -89,6 +89,9 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+.quest:hover{
+  background-color: #084175;
+}
 .questions{
   display: flex;
   flex-direction: column;
@@ -203,6 +206,9 @@ font-weight: bold;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  }
+  .quest:hover{
+    background-color: #084175;
   }
   .topics{
     margin: 0;
