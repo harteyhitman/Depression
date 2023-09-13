@@ -190,15 +190,71 @@ cursor: pointer;
 }
 .Profile-and-dropwdown{
   display: flex;
+  gap: 10px;
+  padding-right: 40px;
 }
 #seek-help-profile{
-  background-color: rgba(41, 45, 50, 0.50);
+  background-color: rgba(41, 45, 50, 0.70);
+  /* backdrop-filter: blur(2px); */
+  background-size: cover;
+  height: 100vh;
 }
-.mental-health{
+.seek-btn{
   position: relative;
   z-index: -1;
 }
+.seek-navbar h1{
+  color: rgba(249, 247, 247, 0.879);
+  /* backdrop-filter: blur(2px); */
+}
+.mental-health{
+  position: relative;
+  z-index: -99;
+}
+.btn-list{
+  /* border: 1px solid red; */
+  border-radius: 6px;
+  padding: 5px;
+  position: relative;
+  top: 40px;
+  background-color: #084175;
+  color: #fff;
+  width: 100px;
+  margin-left: -70px;
+}
+.drop-down-list{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  /* width: 100px; */
+}
+.dropdown{
+  position: relative;
+  /* right: -10rem; */
+  outline: none;
+  margin-left: 77rem;
+  top: -50px;
+}
 @media (max-width: 400px) {
+  .dropdown{
+    position: relative;
+    /* right: -10rem; */
+    padding: 0;
+    margin: 0;
+    top: -50px;
+    margin-left: 18rem;
+  }
+  .btn-list{
+    /* border: 1px solid red; */
+    border-radius: 6px;
+    padding: 5px;
+    position: relative;
+    top: 22px;
+    background-color: #084175;
+    color: #fff;
+    width: 100px;
+    margin-left: -70px;
+  }
   .deperssion-text{
     /* width: 320px; */
   height: 114px;
@@ -280,11 +336,17 @@ cursor: pointer;
   align-items: center;
   cursor: pointer;
   }
-  .seek-help{
-
-    background-image: url(./Assets/seek-help-background.png);
-    background-repeat: no-repeat;
+  #seek-help-profile{
+    background-color: rgba(41, 45, 50, 0.70);
+    /* backdrop-filter: blur(2px); */
     background-size: cover;
-    /* background-position: center; */
+    height: 100vh;
+  }
+  .click-here-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
   }
 }

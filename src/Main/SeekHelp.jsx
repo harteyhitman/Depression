@@ -1,19 +1,19 @@
 import React from "react";
 import SeekHelpImg from "../Assets/profile-circle.png";
-import DropDown from "../Assets/arrow-down.png";
+import DropDownIMg from "../Assets/arrow-down.png";
 import MentalImg from '../Assets/mental-img.png'
-import ClickHereToTakeTest from '../components/ClickHereToTakeTest';
+import Dropdown from '../components/Dropdown';
 
 const SeekHelp = ({handleSubmit}) => {
   return (
     <div id="seek-help-profile">
-      <div className="navbar-container">
+      <div className="navbar-container seek-navbar">
         <h1>Welcome Sandra</h1>
         <div className="Profile-and-dropwdown">
           <img src={SeekHelpImg} alt="" />
-          <img src={DropDown} alt="" />
         </div>
       </div>
+      <Dropdown/>
       <img className="mental-health" src={MentalImg} alt="" />
       <div className="deperssion-text">
       Depression can affect anyone, 
@@ -21,8 +21,12 @@ const SeekHelp = ({handleSubmit}) => {
       proper care and support!    <br /> <br />
       Kindly enter your name and email below to take the text
       </div>
-      <ClickHereToTakeTest handleSubmit={handleSubmit}/>
-    </div>
+      <div className='click-here-btn seek-btn'>
+      <button type='submit'>
+      {handleSubmit}
+      Click here to take test
+      
+      </button>  </div>  </div>
   );
 };
 
