@@ -91,6 +91,7 @@ line-height: normal;
 }
 .quest:hover{
   background-color: #084175;
+  color: #fff;
 }
 .questions{
   display: flex;
@@ -122,6 +123,10 @@ margin-right: 200px;
   padding: 3px 10px;
   border-radius: 5px;
   cursor: pointer;
+}
+.quest-btn:hover{
+  background-color: #084175;
+  color: #fff;
 }
 .submit{
   padding-left: 70px;
@@ -288,6 +293,7 @@ cursor: pointer;
   }
   .quest:hover{
     background-color: #084175;
+    color: #fff;
   }
   .topics{
     margin: 0;
